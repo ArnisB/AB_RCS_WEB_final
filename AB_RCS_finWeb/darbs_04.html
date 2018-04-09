@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="darbs.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="darbs_01.html">
+                        <img class="logo"src=".\Images\The_coolest_LOGO4.png"> 
+
+                    </a>
+                </div>
+                <div class="col-sm-9">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="darbs_01.html">Page 1</a>
+                        </li>
+                        <li >
+                            <a href="darbs_02.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="darbs_03.html">Page 3</a>
+                        </li>
+                        <li class="active">
+                            <a href="darbs_04.html">Page 4</a>
+                        </li>
+                        <li>
+                            <a href="darbs_05.html">Page 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <a href="darbs_01.html">Page 1  </a>
+        <a style="color:blue" >> Page 4</a><hr>
+            <div>
+                <div class="col-sm-12">
+                    <h2>Your choise:</h2>
+                    <button id="RBT1" onclick="Register(1);">Register form</button>
+                    <button id="RBT2" onclick="Register(2);">Login form</button>
+
+                <div class="Register">
+                        <h2>Register form:</h2>
+                        <input value="UserName"> <hr>
+                        <input class="PWRD" type="password" placeholder ="Password"> <hr>
+                        <input class="PWRD" type="password" placeholder="Retype Password"> <hr>
+                        <input value="Name"> <hr>
+                        <input value="Surname"> <hr>
+                        <input value="Country"> <hr>
+                        <input type="checkbox"> Agree all conditions <hr>
+                        <button onclick="regData();">Send data</button>
+
+                </div>
+
+                <div class="Login">
+                        <h2>Log in:</h2>
+                        <input value="UserName" id="Un"><hr>
+                        <input class="PWRD" type="password" placeholder="Password" id="PASSW"> <hr>
+                        <button id="bpassw" onclick="Login();">Login</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+         
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12" /div>
+                    <img id="img1" src=".\Images\thecoolestLOGOteam4.png"> &copy; 2018  Someone cool homepages programmer !!!
+                </div>
+            </div>
+        </div>
+    </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="DarbsJS.js" type="text/javascript"></script>
+</body> 
+</html>

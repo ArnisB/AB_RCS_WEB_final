@@ -1,0 +1,145 @@
+img{
+    max-width: 100%;
+}
+.main-menu{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    float: right;
+}
+.main-menu li{
+    float: left;
+    margin-left: 20px;
+    line-height: 10vh;
+}
+.main-menu li.active a{
+    color:red;
+    font-weight: bold;
+}
+header{
+    background: rgba(109, 214, 140, 0.822);
+    border-bottom: 1px solid rgb(15, 15, 15);
+    max-height: 15vh;
+}
+main{
+    margin-top: 30px;
+    min-height: 78vh;
+    background: rgba(247, 243, 6, 0.226);
+    /* text-align: center;
+    text-decoration-color: black; */
+
+}
+footer {
+    text-align: center;
+    max-height: 10vh;
+    line-height: 50px;
+    border-top:1px solid  rgb(15, 15, 15);
+    background: rgba(109, 214, 140, 0.822);
+}
+.logo {
+    max-width: 40vh;
+}
+.mySlides {
+   width: 100%;
+   max-height: 100%;
+   /* text-align: center; */
+ 
+
+}
+.w3-left {
+    float: left;
+}
+.w3-right{
+    float: right;
+}
+.w3-button{
+    float: center;
+    text-align: center;
+}
+#img1{
+    max-width: 35vh;
+
+
+}
+#row1{
+    text-align: center;
+    height: 45vh;
+    font-weight:bold;  
+}
+#row2{
+    height: 5vh;
+}
+
+#SMA{
+    height: 25vh; 
+}
+
+
+ /* Style the tab * -  5 lapas !!!!*/
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(204, 204, 204);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+} 
+.Register{
+    display: none;
+} 
+.chatArea{
+    border: solid black;
+    height: 40vh;
+    background: aliceblue;
+} 
+
+#Mtext{
+    border: solid black;
+    height: 10vh;
+    width: 100%;
+    background: aliceblue;
+    height: 80px;
+    Resize: Vertical;
+    font-size: 18px;
+    float: left;
+} 
+.dd{
+    font-size: 8px;
+} 
+.big-article{
+ 
+    float: left;
+} 
+#chat{
+    font-size: 20px;
+}
+#Usernamet{
+    font-size: 16px;
+}

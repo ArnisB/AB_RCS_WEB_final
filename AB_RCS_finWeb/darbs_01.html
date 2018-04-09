@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page 1</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="darbs.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <a href="darbs_01.html">
+                        <img class="logo"src=".\Images\The_coolest_LOGO4.png"> 
+                    </a>
+                </div>
+                <div class="col-sm-9">
+                    <ul class="main-menu">
+                        <li class="active">
+                            <a href="darbs_01.html">Page 1</a>
+                        </li>
+                        <li >
+                            <a href="darbs_02.html">Page 2</a>
+                        </li>
+                        <li>
+                            <a href="darbs_03.html">Page 3</a>
+                        </li>
+                        <li>
+                            <a href="darbs_04.html">Page 4</a>
+                        </li>
+                        <li>
+                            <a href="darbs_05.html">Page 5</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row" id="row1">
+                <div class="col-sm-12 slider-image" >
+                    
+                        <img class="mySlides" src=".\Slides\slide1.jpg">
+                        <img class="mySlides" src=".\Slides\slide2.jpg">
+                        <img class="mySlides" src=".\Slides\slide3.jpg">
+                        <img class="mySlides" src=".\Slides\slide4.jpg">
+                        <img class="mySlides" src=".\Slides\slide5.jpg">
+                                  
+
+                        <!-- <div class="w3-center w3-display-bottommiddle" style="width:100%"> -->
+                          <h4><div class="w3-left"  onclick="plusDivs(-1)">&#10094;&#10094;&#10094;</div>
+                          <div class="w3-right" onclick="plusDivs(1)">&#10095;&#10095;&#10095;</div>
+                          <button class="w3-button " onclick="currentDiv(1)">1</button>
+                          <button class="w3-button " onclick="currentDiv(2)">2</button>
+                          <button class="w3-button " onclick="currentDiv(3)">3</button>
+                          <button class="w3-button " onclick="currentDiv(4)">4</button>
+                          <button class="w3-button " onclick="currentDiv(5)">5</button></h4>
+
+                </div>
+            </div>
+            <div class="row" id="row2">
+                <div class="col-sm-12">
+                    <h2>3 most recent articles</h2>
+                </div>
+            </div>
+            <div class="row"id="SMA">
+                <div class="col-sm-4 small-article">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <a href="darbs_06.html"> <!-- should link to actual articles page -->
+                                <img src=".\Images\Money_cat.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>
+                                <a href="darbs_06.html">Article 1</a> <!-- should link to actual articles page -->
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat explicabo, inventore quidem ut maxime excepturi fuga asperiores sed. Eaque nesciunt consequatur consectetur, deleniti corporis molestias magni fuga minima neque?</p>
+                        </div>
+                    </div>
+                </div> <!-- .small-article -->
+                <div class="col-sm-4 small-article">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <a href="darbs_06.html"> <!-- should link to actual articles page -->
+                                <img src=".\Images\spring_wanted.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>
+                                <a href="darbs_06.html">Article 2</a> <!-- should link to actual articles page -->
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat explicabo, inventore quidem ut maxime excepturi fuga asperiores sed. Eaque nesciunt consequatur consectetur, deleniti corporis molestias magni fuga minima neque?</p>
+                        </div>
+                    </div>
+                </div> <!-- .small-article -->
+                <div class="col-sm-4 small-article">
+                    <div class="row">
+                        <div class="col-sm-4 hidden-xs">
+                            <a href="darbs_06.html"> <!-- should link to actual articles page -->
+                                <img src=".\Images\Bat_cat.jpg">
+                            </a>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>
+                                <a href="darbs_06.html">Article 3</a> <!-- should link to actual articles page -->
+                            </h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis placeat explicabo, inventore quidem ut maxime excepturi fuga asperiores sed. Eaque nesciunt consequatur consectetur, deleniti corporis molestias magni fuga minima neque?</p>
+                        </div>
+                    </div>
+                </div> <!-- .small-article -->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12" /div>
+                    <img id="img1" src=".\Images\thecoolestLOGOteam4.png"> &copy; 2018  Someone cool homepages programmer !!!
+                </div>
+            </div>
+        </div>
+   </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="DarbsJS.js"></script>
+</body>
+</html> 
